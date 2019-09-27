@@ -1,5 +1,5 @@
 body {
-    background-color: powderblue;
+    background-color: white;
   }
   h1 {
     color: black;
@@ -25,6 +25,7 @@ body {
   }
   
   article{
+    table: border: 1px solid black;
     color: black;
     text-align: center;
     float: left;
@@ -32,6 +33,7 @@ body {
     width: 50%;
   }
   aside {
+    table: border: 1px solid black;
     float: right;
     margin: 0 1.5%;
     width: 50%;
@@ -76,8 +78,50 @@ body {
   footer {
     text-align: center;
   }
-  #fancyButton{
-    height: 50px;
-    width: 100px;
+  
+  .button {
+    
+    display: inline-block;
+      border-radius: 3px;
+      padding: 7px 12px;
+      border: 1px solid #D5D5D5;
     background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,212,40,0.9710259103641457) 0%, rgba(0,212,255,1) 100%);
+      background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,212,40,0.9710259103641457) 0%, rgba(0,212,255,1) 100%);
+      font: 700 13px/18px Helvetica, arial;
+  }
+  
+   .button--bem-example {
+      display: inline-block;
+      border-radius: 3px;
+      padding: 7px 12px;
+      border: 1px solid #D5D5D5;
+    background: rgb(2,0,36);
+      background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,212,40,0.9710259103641457) 0%, rgba(0,212,255,1) 100%);
+      font: 700 13px/18px Helvetica, arial;
+     }
+  .parent{
+      position:relative;
+      margin:auto;
+      background:yellow;
+      height:60px;
+      width:200px;
+  }
+  .parent .child{
+      position:absolute; 
+      top:0;
+      bottom:0;
+      margin:auto;
+      width:100%;
+      height:20px;
+      background:black;
+  }
+  .parent .child .grandchild{
+      z-index: -1;
+      position:absolute; 
+      top:0;
+      bottom:0;
+      margin:auto;
+      width:100%;
+      height:10px;
+      background:white;
+  }
