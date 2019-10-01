@@ -49,16 +49,9 @@ body {
   text-align:center;
   display: inline-block;
 }
-.gallery{
-  width ="600";
-  height = "400";
-  font-family: 'Lora', serif;
+.gallery {
+  width : "600";
+  height : "400";
+  font-family: ('Lora', serif);
   
 }
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
