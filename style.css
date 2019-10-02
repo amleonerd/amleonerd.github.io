@@ -1,133 +1,133 @@
 body {
-  background-color: white;
-text-align: center;                    
-background-image: url("http://dianegress.com/wp-content/uploads/2014/11/simple-pattern-white-seamless-website-background-2.jpg");
-min-height: 500px; 
-
+    background-color: white;
+  text-align: center;                    
+  background-image: url("http://dianegress.com/wp-content/uploads/2014/11/simple-pattern-white-seamless-website-background-2.jpg");
+  min-height: 500px; 
+ 
 }
 main {
-  text-align: center;
+    text-align: center;
 }
-h1 {
-  color: black;
-  padding: 10px;
-  margin:10px;
-  text-align: center; 
-  font-family: 'Vollkorn', serif;
-  letter-spacing: 4px;
-  background-color: white;
-  border: 5px solid black;
-  box-sizing: border-box; 
-}
+  h1 {
+    color: black;
+    padding: 10px;
+    margin:10px;
+    text-align: center; 
+    font-family: 'Vollkorn', serif;
+    letter-spacing: 4px;
+    background-color: white;
+    border: 5px solid black;
+    box-sizing: border-box; 
+  }
 
 h2{
-  text-align: center;
-  font-family: 'Vollkorn', serif;
-  letter-spacing: 4px;
-  color: dark grey;
-  width: 400px;
-  height: 50px;
-  padding: 5px;
-  border: 5px solid black;
-  box-sizing: border-box;
-  margin: auto;
-    
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    letter-spacing: 4px;
+    color: dark grey;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin: auto;
+      
 }
 
-p {
-  color: black;
-  border: 0px black;
-  padding: 10px;
-  margin: 10px;
-  font-family:verdana;
-}
+  p {
+    color: black;
+    border: 0px black;
+    padding: 10px;
+    margin: 10px;
+    font-family:verdana;
+  }
 
 @media only screen and (max-width: 700px) {
-.responsive {
-  width: 49.99999%;
-  margin: 6px 0;
-}
-
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  
 }
 @media only screen and (max-width: 500px) {
-.responsive {
-  width: 100%;
-}
-
+  .responsive {
+    width: 100%;
+  }
+  
 }
 
 img {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 40%;
-text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align:center;
 }
 
 .name{
-padding: 15px;
-letter-spacing: 5px;
-text-align:center;
+  padding: 15px;
+  letter-spacing: 5px;
+  text-align:center;
 }
 
 .heading{
-letter-spacing: 8px;
-text-align: center;
-
+  letter-spacing: 8px;
+  text-align: center;
+ 
 }
 
 .about-me{
-width: 48%;
-letter-spacing: 4px;
-text-align: center; 
-float: left;
-background-color: #FFEECA;
-border: 5px solid black;
-box-sizing: border-box;
+  width: 48%;
+  letter-spacing: 4px;
+  text-align: center; 
+  float: left;
+  background-color: #FFEECA;
+  border: 5px solid black;
+  box-sizing: border-box;
 }
 
 .about-me2 {
-width: 48%;
-letter-spacing: 4px;
-text-align: center; 
-float: right;
-background-color: #FFEECA;
-border: 5px solid black;
-box-sizing: border-box;
-height: 375px;
+  width: 48%;
+  letter-spacing: 4px;
+  text-align: center; 
+  float: right;
+  background-color: #FFEECA;
+  border: 5px solid black;
+  box-sizing: border-box;
+  height: 375px;
 }
 
 
 footer
 {
-  text-align: center;
-  font-family: 'Vollkorn', serif;
-  letter-spacing: 4px;
-  color: dark grey;
-  height: 5px;
-  padding: 400px;
-  margin: auto;
-  
-  
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    letter-spacing: 4px;
+    color: dark grey;
+    height: 5px;
+    padding: 400px;
+    margin: auto;
+    
+    
 }
 
 .footer-head{
-border: 2px solid black;
-box-sizing: border-box;
-background-color: #FFEECA;
+  border: 2px solid black;
+  box-sizing: border-box;
+  background-color: #FFEECA;
 }
 
 .list{
-border: 2px solid black;
-box-sizing: border-box;
-background-color: #FFEECA;
-text-align: center;
-font-family: 'Vollkorn', serif;
-letter-spacing: 5px;
-height: 150px;
-padding: 10px;
-margin: auto;
-width: 46.2%;
-line-height: 1.6;
-list-style-type: none;
+  border: 2px solid black;
+  box-sizing: border-box;
+  background-color: #FFEECA;
+  text-align: center;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 5px;
+  height: 150px;
+  padding: 10px;
+  margin: auto;
+  width: 46.2%;
+  line-height: 1.6;
+  list-style-type: none;
 }
