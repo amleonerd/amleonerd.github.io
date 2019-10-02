@@ -101,7 +101,7 @@ height: 375px;
 footer
 {
   text-align: center;
-  font-family: 'Vollkorn'; serif;
+  font-family: 'Vollkorn', serif;
   letter-spacing: 4px;
   color: dark grey;
   height: 5px;
@@ -122,7 +122,7 @@ border: 2px solid black;
 box-sizing: border-box;
 background-color: #FFEECA;
 text-align: center;
-font-family: 'Vollkorn'; serif;
+font-family: 'Vollkorn', serif;
 letter-spacing: 5px;
 height: 150px;
 padding: 10px;
