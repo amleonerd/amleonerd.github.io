@@ -42,19 +42,6 @@ h2{
     font-family:verdana;
   }
 
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-  
-}
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-  
-}
 
 img {
   display: block;
@@ -63,6 +50,8 @@ img {
   width: 40%;
   text-align:center;
 }
+
+  
 
 .name{
   padding: 15px;
@@ -94,9 +83,8 @@ img {
   background-color: #FFEECA;
   border: 5px solid black;
   box-sizing: border-box;
-  height: 375px;
+  height: 380px;
 }
-
 
 footer
 {
@@ -106,28 +94,60 @@ footer
     color: dark grey;
     height: 5px;
     padding: 400px;
-    margin: auto;
+    
+    
     
     
 }
 
-.footer-head{
-  border: 2px solid black;
+.list
+{
   box-sizing: border-box;
-  background-color: #FFEECA;
-}
-
-.list{
   border: 2px solid black;
-  box-sizing: border-box;
   background-color: #FFEECA;
   text-align: center;
   font-family: 'Vollkorn', serif;
   letter-spacing: 5px;
-  height: 150px;
-  padding: 10px;
-  margin: auto;
-  width: 46.2%;
+  width: 100%;
   line-height: 1.6;
   list-style-type: none;
+
 }
+
+.footer-head{
+  text-align: center;
+  font-family: 'Vollkorn', serif;
+  letter-spacing: 4px;
+  background-color: #FFEECA;
+  color: black;
+  width: 100%;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+
+
+/* Media Queries -------------------- */
+
+@media screen and (max-width: 960px) {
+  .about-me {width: 100%;margin-top: 20px;}
+  .heading {color:red; }
+  .about-me2 {width:100%; margin-top: 20px;}
+  footer { width:100%; margin-top: 20px; position: absolute; left:0; bottom:-10;}
+  .footer-head { width: 100%; margin-top: 20px;}
+  .contact { width: 100%; margin-top: 20px;}
+  main{padding-bottom: 1rem;}
+}
+
+@media only screen and (max-width: 960px) {
+  .contact { width: 100%; margin-top: 20px;}
+  
+}
+@media only screen and (max-width: 960px) {
+  .footer-head { width: 100%; margin-top: 20px;}
+  
+}
+@media only screen and (max-width: 960px) {
+  .list { width: 100%; margin-top: 20px;}
+  
+}
+
