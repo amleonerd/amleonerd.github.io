@@ -1,9 +1,9 @@
 body {
-    background-color: white;
+  background-color: white;
   text-align: center;                    
   background-image: url("http://dianegress.com/wp-content/uploads/2014/11/simple-pattern-white-seamless-website-background-2.jpg");
-  min-height: 500px; 
- 
+  min-height: auto; 
+  padding: 10px;
 }
 main {
     text-align: center;
@@ -11,7 +11,6 @@ main {
   h1 {
     color: black;
     padding: 10px;
-    margin:10px;
     text-align: center; 
     font-family: 'Vollkorn', serif;
     letter-spacing: 4px;
@@ -25,14 +24,14 @@ h2{
     font-family: 'Vollkorn', serif;
     letter-spacing: 4px;
     color: dark grey;
-    width: 400px;
+    width: 100px;
     height: 50px;
-    padding: 5px;
-    border: 5px solid black;
-    box-sizing: border-box;
+    padding: 1px;
+    border: 1px solid black;
     margin: auto;
       
 }
+
 
   p {
     color: black;
@@ -49,6 +48,7 @@ img {
   margin-right: auto;
   width: 40%;
   text-align:center;
+  height: auto;
 }
 
   
@@ -62,12 +62,11 @@ img {
 .heading{
   letter-spacing: 8px;
   text-align: center;
- 
 }
 
 .about-me{
   width: 48%;
-  letter-spacing: 4px;
+  letter-spacing: 6px;
   text-align: center; 
   float: left;
   background-color: #FFEECA;
@@ -75,54 +74,35 @@ img {
   box-sizing: border-box;
 }
 
+.signature{
+  width: 100%;
+  text-align: center;
+  
+}
+
 .about-me2 {
   width: 48%;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   text-align: center; 
   float: right;
   background-color: #FFEECA;
   border: 5px solid black;
   box-sizing: border-box;
-  height: 380px;
+  height: 10 px;
 }
 
-footer
-{
-    text-align: center;
-    font-family: 'Vollkorn', serif;
-    letter-spacing: 4px;
-    color: dark grey;
-    height: 5px;
-    padding: 400px;
-    
-    
-    
-    
-}
-
-.list
-{
-  box-sizing: border-box;
-  border: 2px solid black;
-  background-color: #FFEECA;
-  text-align: center;
-  font-family: 'Vollkorn', serif;
-  letter-spacing: 5px;
-  width: 100%;
-  line-height: 1.6;
+.point {
   list-style-type: none;
-
-}
-
-.footer-head{
   text-align: center;
-  font-family: 'Vollkorn', serif;
-  letter-spacing: 4px;
+  letter-spacing: 6px; 
+  position: bottom;
+  bottom: 20px;
+  width: 100%; 
+  display: inline-block;
+  box-sizing:  border-box;
   background-color: #FFEECA;
-  color: black;
-  width: 100%;
   border: 5px solid black;
-  box-sizing: border-box;
+  
 }
 
 
@@ -130,22 +110,20 @@ footer
 
 @media screen and (max-width: 960px) {
   .about-me {width: 100%;margin-top: 20px;}
-  .heading {color:red; }
+  .heading {color:black; }
   .about-me2 {width:100%; margin-top: 20px;}
-  .footer-head { width: 100%; margin-top: 20px;}
-  .contact { width: 100%; margin-top: 20px;}
+  .point {width:100%; margin-top: 20px;}
+  .list {width:100%; margin-top: 20px;}
+
+
 }
 
 @media only screen and (max-width: 960px) {
-  .contact { width: 100%; margin-top: 20px;}
-  
-}
-@media only screen and (max-width: 960px) {
-  .footer-head { width: 100%; margin-top: 20px;}
-  
-}
-@media only screen and (max-width: 960px) {
-  .list { width: 100%; margin-top: 20px;}
+  .point { width: 100%; margin-top: 20px;}
   
 }
 
+@media only screen and (max-width: 960px) {
+  .point { width: 100%; }
+  
+}
