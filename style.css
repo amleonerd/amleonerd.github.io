@@ -91,9 +91,9 @@ img {
   height: 10 px;
 }
 
-.point {
-  list-style-type: none;
-  text-align: center;
+.flex-container {
+  display: flex;
+  justify-content: center;
   letter-spacing: 6px; 
   position: bottom;
   bottom: 20px;
@@ -104,6 +104,60 @@ img {
   border: 5px solid black;
   height: 200px;
 }
+
+#facebook {
+  width: 8%;
+  display: left;
+  justify-content: center;
+  height: 10%;
+}
+
+#instagram {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#connect {
+  text-align: center; 
+  border: 5px solid black;
+  box-sizing: border-box;
+
+}
+#fullname{
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+#phone1 {
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+#phone2 {
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+#phone3 {
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+#email{
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+#submit {
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid black;
+  height: 30px; 
+  width: 140px; 
+
+}
+
 
 
 /* Media Queries -------------------- */

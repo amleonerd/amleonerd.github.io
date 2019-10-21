@@ -44,26 +44,39 @@
     <footer>
       
         
-        <div class="list">
-        <ul class="point">
+        <div class="flex-container">
         <h3>Contact Information</h3>
-          <li>
-              <a href="https://www.facebook.com/ashley.l.medina.9">Facebook </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/ash_leonerd/?hl=en"
-              >Instagram
+          <div class = "facebook">
+              <a href="https://www.facebook.com/ashley.l.medina.9"><img id="facebook" src="images/facebook-icon-preview.png" alt="facebook link"/></a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/ash_leonerd/?hl=en"><img id="instagram" src="images/http___pluspng.com_img-png_instagram-png-instagram-png-logo-1455.png" alt="instagram link"/>
             </a>
-          </li>
-          <li><a href="https://twitter.com/ashley_leonerd">Twitter </a></li>
-          <li>
+          </div>
+          <div><a href="https://twitter.com/ashley_leonerd">Twitter </a></div>
+          <div>
             <a href="https://www.linkedin.com/in/ashley-leonard-283774141/"
               >LinkedIn
             </a>
-          </li>
-          <li><a href="mailto:amlockhart24@gmail.com">Email </a></li>
-        </ul>
+          </div>
+          <div><a href="mailto:amlockhart24@gmail.com">Email </a></div>
       </div>
+      <div class="item2">
+        <img id="connect" src="images/Let's connect.png" alt="connect"/>
+      
+            <br>Full Name: <input id="fullname" type="text" placeholder="First, Last" name="firstname"pattern="[a-zA-Z]"{1,100}><br>
+            <br>Phone Number:
+            <input id="phone1" type="tel" placeholder="Area Code" size="8" name="areacode" maxlength="3" pattern="[0-9]{3}">-
+            <input id="phone2" type="tel" name="mid" size="8" maxlength="3" pattern="[0-9]{3}">-
+            <input id="phone3" type="tel" name="lastfour" size="8" maxlength="4" pattern="[0-9]{4}"><br>
+
+            <br>E-mail: <input id=email name="email" type="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" class="form-control" placeholder="Email" size="30"><br>
+            <br><button id="submit">Submit</button>
+            
+    <p id="result"></p>
+    <script src="webpage.js"></script>
+    </div>
+
       
     </footer>
   </body>
