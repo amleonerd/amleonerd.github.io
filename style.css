@@ -1,9 +1,6 @@
 body {
-  background-color: white;
+  background-color: #FFF3E9;
   text-align: center;                    
-  background-image: url("http://dianegress.com/wp-content/uploads/2014/11/simple-pattern-white-seamless-website-background-2.jpg");
-<<<<<<< HEAD
-  min-height: auto; 
   padding: 10px;
 }
 main {
@@ -13,33 +10,43 @@ main {
     color: black;
     padding: 10px;
     text-align: center;  
-    font-family: 'Vollkorn', serif;
-    letter-spacing: 4px;
-    background-color: white;
-    border: 5px solid black;
+    font-family: bebas-neue, sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    background-color: #dadbdc;
+    border: 5px solid #3c4858 ;
     box-sizing: border-box; 
+    margin: 20px;
+    width: 100;
+    margin-right: 20px;
   }
 
-h2{
-    text-align: center;
-    font-family: 'Vollkorn', serif;
-    letter-spacing: 4px;
-    color: dark grey;
-    width: 100px;
-    height: 50px;
-    padding: 1px;
-    border: 1px solid black;
-    margin: auto;
+h3{
+  color: black;
+  padding: 10px;
+  text-align: center;  
+  font-family: bebas-neue, sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  background-color: #dadbdc;
+  border: 5px solid #3c4858 ;
+  box-sizing: border-box; 
+  margin: 20px;
+  width: 100;
+  margin-right: 20px;
       
 }
+
 
 
   p {
     color: black;
     border: 0px black;
     padding: 10px;
-    margin: 10px;
-    font-family:verdana;
+    margin: 20px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
   }
 
 
@@ -47,9 +54,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
   text-align:center;
   height: auto;
+  width: 40%; 
 }
 
 .name{
@@ -58,66 +65,70 @@ img {
   text-align:center;
 }
 
-.heading{
-  letter-spacing: 8px;
-  text-align: center;
-}
-
 .about-me{
-  width: 48%;
-  letter-spacing: 6px;
+  width: 96%;
+  letter-spacing: 4px;
   text-align: center; 
-  float: left;
-  background-color: #FFEECA;
-  border: 5px solid black;
-  box-sizing: border-box;
-  height: 10 px;
+  background-color: #dadbdc;
+  border: 5px solid #3c4858 ;
+  border-collapse: separate;
+  padding: 5px;
+  margin: 20px;
+  margin-bottom: 20px;
 }
 
-.signature{
+
+#calling {
+  padding: 1px; 
+  border:10px #3c4858;
+  background-color: black;
   width: 100%;
-  text-align: center;
-  
+  height: 700px;
+  margin: 20px;
+  margin-bottom: 20px;
+  filter: grayscale(50%);
 }
 
-.about-me2 {
-  width: 48%;
-  letter-spacing: 2px;
-  text-align: center; 
-  float: right;
-  background-color: #FFEECA;
-  border: 5px solid black;
+#contact {
   box-sizing: border-box;
-  height: 10 px;
+  border: 5px black;
+  margin-bottom: 20px;
+  padding: 10px; 
+  filter: grayscale(50%);
+}
+.center {
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-family: bebas-neue, sans-serif;
+    font-size: 70px;
+    color: white;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  letter-spacing: 6px; 
-  position: bottom;
-  bottom: 20px;
-  width: 100%; 
-  display: inline-block;
-  box-sizing:  border-box;
-  background-color: #FFEECA;
-  border: 5px solid black;
-  height: 200px;
+.lower {
+  position: absolute;
+    top: 25%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-family: bebas-neue, sans-serif;
+    font-size: 30px;
+    color: white;
 }
 
-#facebook {
-  width: 8%;
-  display: left;
-  justify-content: center;
-  height: 10%;
+.column {
+  float: left;
+  width: 19%;
+  padding: 5px;
 }
 
-#instagram {
-    width: 5%;
-    display: flex;
-    justify-content: center;
-    
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
+
 
 #connect {
   text-align: center; 
@@ -125,38 +136,9 @@ img {
   box-sizing: border-box;
 
 }
-#fullname{
-  border: 2px solid black;
-  box-sizing: border-box;
-}
 
-#phone1 {
-  border: 2px solid black;
-  box-sizing: border-box;
-}
 
-#phone2 {
-  border: 2px solid black;
-  box-sizing: border-box;
-}
 
-#phone3 {
-  border: 2px solid black;
-  box-sizing: border-box;
-}
-
-#email{
-  border: 2px solid black;
-  box-sizing: border-box;
-}
-#submit {
-  text-align: center;
-  box-sizing: border-box;
-  border: 2px solid black;
-  height: 30px; 
-  width: 140px; 
-
-}
 
 
 
