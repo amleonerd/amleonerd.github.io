@@ -2,6 +2,7 @@ body {
   background-color: #FFF3E9;
   text-align: center;                    
   padding: 10px;
+  margin: auto;
 }
 main {
   text-align: center;
@@ -59,14 +60,28 @@ img {
   width: 40%; 
 }
 
-.name{
-  padding: 15px;
-  letter-spacing: 5px;
-  text-align:center;
+.center {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: bebas-neue, sans-serif;
+  font-size: 60px;
+  color: #b25a1a;
+}
+
+.lower {
+  position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: bebas-neue, sans-serif;
+    font-size: 30px;
+    color: black;
 }
 
 .about-me{
-  width: 96%;
+  width: 100;
   letter-spacing: 4px;
   text-align: center; 
   background-color: #dadbdc;
@@ -76,45 +91,43 @@ img {
   margin: 20px;
   margin-bottom: 20px;
 }
-
-
-#calling {
+.top{
   padding: 1px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   border:10px #3c4858;
-  background-color: black;
-  width: 100%;
-  height: 700px;
+  background-color:#3c4858;
   margin: 20px;
   margin-bottom: 20px;
   filter: grayscale(50%);
 }
 
-#contact {
+#calling {
+  padding: 1px; 
+  display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  text-align: center;
+  border:10px #3c4858;
+  background-color: black;
+  width: 40%;
+  margin-bottom: 1px;
+  margin-left: auto;
+  filter: grayscale(50%);
+}
+
+.connect {
   box-sizing: border-box;
   border: 5px black;
   margin-bottom: 20px;
   padding: 10px; 
   filter: grayscale(50%);
 }
-.center {
-    position: absolute;
-    top: 20%;
-    left: 53%;
-    transform: translate(-50%, -50%);
-    font-family: bebas-neue, sans-serif;
-    font-size: 70px;
-    color: white;
-}
 
-.lower {
-  position: absolute;
-    top: 25%;
-    left: 53%;
-    transform: translate(-50%, -50%);
-    font-family: bebas-neue, sans-serif;
-    font-size: 30px;
-    color: white;
-}
+
+
 
 .column {
   float: left;
@@ -147,31 +160,67 @@ img {
   .column {
     width: 100%;
   }
+  .title {
+    font-size: 10px;
+  }
 
 
 @media screen and (max-width: 600px) {
-  footer{
+  .lower {
     padding:0px
   }
 }
 
-<<<<<<< HEAD
+/*  HEAD */
 @media screen and (max-width: 960px) {
-  .about-me {width: 100%;margin-top: 20px;}
-  .heading {color:black; }
-  .about-me2 {width:100%; margin-top: 20px;}
-  .point {width:100%; margin-top: 20px;}
-  .list {width:100%; margin-top: 20px;}
-
+  .about-me {margin-top: 20px;}
+  .top {color:black; }
+  .center {width:100%; margin-top: 20px;}
 
 }
 
 @media only screen and (max-width: 960px) {
-  .point { width: 100%; margin-top: 20px;}
+  .center { width: 100%; margin-top: 20px;}
   
 }
 
 @media only screen and (max-width: 960px) {
-  .point { width: 100%; }
+  .center{ width: 100%; }
   
+}
+
+@media only screen and (max-width: 960px) {
+  .column{ width: 100%; }
+  
+}
+
+/* Font*/
+@media screen and (min-width: 50em) {
+  html {
+    font-size: 2vw;
+  }
+  .center{
+    font-size: 1.5em;
+  }
+  .lower {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 75em) {
+  html {
+    font-size: 1.5em;
+  }
+  .center{
+    font-size: 1.5em;
+  }
+  .lower {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 320px) {
+
+  body { 
+     font-size: 2em; 
+  }
+
 }
